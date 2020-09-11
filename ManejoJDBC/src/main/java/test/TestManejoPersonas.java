@@ -38,6 +38,7 @@ public class TestManejoPersonas {
             personaDao.insertar(nuevaPersona);
             
             conexion.commit();
+            System.out.println("Se ha hecho el commit de la transacción");
             
         } catch (SQLException ex) {
             try {
