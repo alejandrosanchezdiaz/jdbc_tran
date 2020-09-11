@@ -32,7 +32,8 @@ public class TestManejoPersonas {
             
             Persona nuevaPersona = new Persona();
             nuevaPersona.setNombre("Rafael");
-            nuevaPersona.setApellido("RodriguezRodriguezRodriguezRodriguezRodriguezzzz");
+//            nuevaPersona.setApellido("RodriguezRodriguezRodriguezRodriguezRodriguezzzz");
+            nuevaPersona.setApellido("Rodriguez");
             
             personaDao.insertar(nuevaPersona);
             
